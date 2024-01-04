@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">personalApp</string>
+    <string name="your_s_app">Your\'s App</string>
+    <string name="get_started">Get Started</string>
+    <string name="image" />
+    <string name="confirm_password">Confirm Password</string>
+    <string name="f_do_you_have_an_account_log_n">İf do you have an account LOGİN</string>
+    <string name="write_email">write Email</string>
+    <string name="password" />
+    <string name="email" />
+    <string name="signup">SignUp</string>
+    <string name="_0">0</string>
+    <string name="_2500">/2500</string>
+    <string name="your_app">Your App</string>
+</resources>

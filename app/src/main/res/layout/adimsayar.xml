@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationX="-20dp"
+    tools:context=".AppStep"
+    tools:viewBindingIgnore="true"
+    android:background="@drawable/top_background2">
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:cpb_background_progressbar_color="#F2F2F2"
+        app:cpb_background_progressbar_width="20dp"
+        app:cpb_progress_max="2500"
+        app:cpb_progressbar_color="#F44336"
+        app:cpb_progressbar_width="15dp"
+        app:cpb_round_border="true" />
+
+    <TextView
+        android:id="@+id/tv_stepsTaken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="125"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText,InvalidId" />
+
+    <TextView
+        android:id="@+id/tv_totalmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_stepsTaken"
+        android:layout_centerInParent="true"
+        android:text="@string/_2500"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="74dp"
+        android:text="Step Counter"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationX="-30dp" />
+
+    <Button
+        android:id="@+id/outbtn"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:text="Logout" />
+</RelativeLayout>
